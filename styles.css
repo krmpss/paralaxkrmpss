@@ -24,3 +24,29 @@ body, html {
     padding: 20px;
     height: 100%;
 }
+.game-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0;
+    border-top: 1px solid #ccc;
+}
+
+.game-area {
+    position: relative;
+    width: 150px;  /* Adjust based on your footer's height and layout */
+    height: 150px;
+    overflow: hidden;
+}
+
+#customCharacter {
+    position: absolute;
+    width: 40px; /* Adjust based on your image size and how you want it to appear in the game area */
+    display: none;
+}
+
+#score {
+    margin-left: 20px;
+    font-size: 16px;
+}
